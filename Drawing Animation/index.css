@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+#draw_background{
+    width: 70%;
+    height: 85%;
+    background: url(./source/img/drawing_book.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+#draw_book{
+    width: 19.5vw;
+    height: 44vh;
+    position: absolute;
+    top: 30.5%;
+    left: 47%;
+    transform: rotate(-7deg);
+    background-color: rgb(248, 248, 239);
+}
+
+#draw_hand{
+    position: relative;
+    top: 30%;
+    left: 77%;
+    transition: none;
+    pointer-events: none;
+}
